@@ -1,0 +1,88 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-06-20T15:31:01.395Z",
+  "__export_source": "insomnia.desktop.app:v2022.3.0",
+  "resources": [
+    {
+      "_id": "req_94c56d6052c34e9cb630e1776a61eafb",
+      "parentId": "wrk_4976c74f0a09436ea3fa7429d70fe4e9",
+      "modified": 1655738719057,
+      "created": 1655738621234,
+      "url": "http://localhost:9000/",
+      "name": "Test",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/graphql",
+        "text": "{\"query\":\"query {\\n\\tdoesNotMatter {\\n\\t\\twhat\\n\\t\\trequest {\\n\\t\\t\\tis \\n\\t\\t\\tbeing\\n\\t\\t\\tsent\\n\\t\\t}\\n\\t}\\n}\"}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_54b0d5b6df734f67bcae7bf6786d3481"
+        }
+      ],
+      "authentication": {
+        "type": "hawk",
+        "algorithm": "sha256",
+        "id": "someid",
+        "key": "werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn",
+        "validatePayload": true
+      },
+      "metaSortKey": -1655738621234,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_4976c74f0a09436ea3fa7429d70fe4e9",
+      "parentId": null,
+      "modified": 1655738616120,
+      "created": 1655738616120,
+      "name": "insomnia-issue-4855",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_8acd44b1813e69d6eb21dc1d9a4559685192ccd3",
+      "parentId": "wrk_4976c74f0a09436ea3fa7429d70fe4e9",
+      "modified": 1655738616137,
+      "created": 1655738616137,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1655738616137,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_8acd44b1813e69d6eb21dc1d9a4559685192ccd3",
+      "parentId": "wrk_4976c74f0a09436ea3fa7429d70fe4e9",
+      "modified": 1655738616139,
+      "created": 1655738616139,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_2ca1ef389f96432e89c9df95ac101525",
+      "parentId": "wrk_4976c74f0a09436ea3fa7429d70fe4e9",
+      "modified": 1655738616128,
+      "created": 1655738616128,
+      "fileName": "insomnia-issue-4855",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
